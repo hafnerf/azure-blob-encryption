@@ -10,9 +10,12 @@ To decrypt the Blob one needs access to the KeyVault Key used to wrap the Encryp
 
 Access to the different Services is managed through RBAC via a Managed Function Identity.
 
-Config Variabels:
+Config Variables:
 
-keyvault: KeyVault Endpoint e.g. https://contosovault.vault.azure.net
-key: Name of the Key used for Key Wrapping e.g. sample-key
-storage_account: StorageAccount Endpoint e.g. https://contosostorageaccount.blob.core.windows.net
-blob_container: Name of the Blob Container e.g. sampleblobcontainer
+**keyvault**: KeyVault Endpoint e.g. https://contosovault.vault.azure.net
+
+**key**: Name of the Key used for Key Wrapping e.g. sample-key
+
+**storage_account**: StorageAccount Endpoint e.g. https://contosostorageaccount.blob.core.windows.net
+
+**blob_container**: Name of the Blob Container e.g. sampleblobcontainer
